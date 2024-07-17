@@ -53,10 +53,10 @@ namespace PlayerApp
         }
 
         // the above method will return toString so we need to override the toString method
-        public override string ToString()
-        {
-            return "Player ID : " + _playerId + " \nPlayer Name : " + _playerName + " \nPlayer Age : " + _playerAge;
-        }
+        //public override string ToString()
+        // {
+        //     return "Player ID : " + _playerId + " \nPlayer Name : " + _playerName + " \nPlayer Age : " + _playerAge;
+        // }
 
         // return the oldest player
         public static string WhoIsElder(Player[] players)
