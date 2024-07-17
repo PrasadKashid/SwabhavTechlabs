@@ -42,14 +42,14 @@ namespace PlayerApp
         }
         
         //helps to print player details
-        public static Player PrintPlayerDetails(Player[] players, int playerId)
+        public static string PrintPlayerDetails(Player[] players, int playerId)
         {
             Player playerInfo =  FindPlayer(players, playerId);
             if(playerInfo != null)
             {
-                return playerInfo;
+                return playerInfo.ToString();
             }
-            return null;
+            return "Player Not Found";
         }
 
         // the above method will return toString so we need to override the toString method
