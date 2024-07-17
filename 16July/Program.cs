@@ -22,7 +22,7 @@ namespace PlayerApp
 
             Console.WriteLine("Enter player id to get details : ");
             int playerId = int.Parse(Console.ReadLine());
-            Player selectedPlayer = Player.PrintPlayerDetails(players, playerId);
+            string selectedPlayer = Player.PrintPlayerDetails(players, playerId);
             Console.WriteLine(selectedPlayer);
 
             Console.WriteLine(Player.WhoIsElder(players));
