@@ -55,5 +55,10 @@ namespace StudentEncap
                 Console.WriteLine("Enter Valid CGPA");
             }
         }
+        public double Percentage()
+        {
+            return _studentCgpa * 9.5;
+        }
+
     }
 }
