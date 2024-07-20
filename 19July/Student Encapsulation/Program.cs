@@ -17,7 +17,7 @@ namespace StudentEncap
 
             Console.WriteLine("Student Roll Number: " + student.GetStudentRollNumber());
             Console.WriteLine("Student Name: " + student.GetStudentName());
-            Console.WriteLine("Student Percentage: " + student.GetStudentCgpa() +" %");
+            Console.WriteLine("Student Percentage: " + student.Percentage() +" %");
         }
     }
 }
