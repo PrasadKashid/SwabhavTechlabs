@@ -18,7 +18,7 @@ namespace StudentEncap
 
         public string GetStudentName() { return _studentName; }
 
-        public double GetStudentCgpa() { return _studentCgpa * 10; }
+        public double GetStudentCgpa() { return _studentCgpa * 9.5; }
 
         public void SetStudentRollNumber(int studentRollNo)
         {
