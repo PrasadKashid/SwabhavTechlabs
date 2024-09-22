@@ -193,10 +193,10 @@ function displayTimesheet(data) {
 
     const existingTable = document.querySelector(".table");
     if (existingTable) {
-        existingTable.remove(); // Remove existing table if present
+        existingTable.remove(); 
     }
 
-    document.body.appendChild(tableContainer); // Append table to body or a specific container
+    document.body.appendChild(tableContainer); 
 }
 
 function deleteEntry(id) {
