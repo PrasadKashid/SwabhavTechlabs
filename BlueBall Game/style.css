@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding-top: 10px;
+}
+
+.circular-btn {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: black;
+    border: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px; /* Space between buttons */
+}
+
+.disabled-btn {
+    background-color: grey; 
+    color: white; 
+    cursor: not-allowed; 
+}
+
+.red-btn{
+    background-color: red;
+}
+
+.green-btn{
+    background-color: green;
+}
+
+.yellow-btn{
+    background-color: yellow;
+    color: black;
+}
+
+.count-display h1{
+    margin: 10px;
+}
