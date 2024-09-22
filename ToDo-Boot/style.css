@@ -1,0 +1,22 @@
+.button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+/* done btn */
+.btn-success {
+    margin: 10px 20px 10px 20px;
+   align-items: end;
+   justify-content: end;
+}
+
+.btn-danger{
+    margin: 10px 20px 10px 20px;
+    align-items: start;
+}
+
+
